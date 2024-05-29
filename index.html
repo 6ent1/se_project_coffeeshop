@@ -21,12 +21,6 @@
   </head>
   <body>
     <div class="page">
-      <img
-        src="./images/background_header.svg"
-        alt="Header background image"
-        class="header__background-image"
-      />
-
       <header class="header">
         <nav class="nav">
           <img
@@ -35,10 +29,10 @@
             class="nav__logo"
           />
           <ul class="nav__links">
-            <li><a href="" class="nav__link">Recipes</a></li>
-            <li><a href="" class="nav__link">Book a Table</a></li>
-            <li><a href="" class="nav__link">Menu</a></li>
-            <li><a href="" class="nav__link">Contacts</a></li>
+            <li><a href="#recipes" class="nav__link">Recipes</a></li>
+            <li><a href="#reservation" class="nav__link">Book a Table</a></li>
+            <li><a href="#menu" class="nav__link">Menu</a></li>
+            <li><a href="#about" class="nav__link">Contacts</a></li>
           </ul>
         </nav>
 
@@ -53,7 +47,7 @@
         <img
           src="./images/inside_coffee_shop.png"
           alt="Coffe shop image"
-          class="header__shop-image"
+          class="header__image"
         />
         <div class="header__footer">
           <div>
@@ -67,7 +61,7 @@
         </div>
       </header>
       <main class="content">
-        <section class="recipes">
+        <section id="recipes" class="recipes">
           <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
@@ -103,9 +97,9 @@
           </div>
         </section>
 
-        <section class="reservation"></section>
-        <section class="about"></section>
-        <section class="menu"></section>
+        <section id="reservation" class="reservation"></section>
+        <section id="menu" class="menu"></section>
+        <section id="about" class="about"></section>
       </main>
       <footer class="footer"></footer>
     </div>

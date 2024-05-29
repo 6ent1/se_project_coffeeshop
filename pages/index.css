@@ -14,6 +14,8 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  /* overflow: hidden; */
+  background-image: url(/images/background_header.svg);
 }
 
 .nav {
@@ -72,11 +74,11 @@
 
 .header__background-image {
   position: absolute;
-  margin: 0;
+  margin: -30px;
   z-index: -1;
 }
 
-.header__shop-image {
+.header__image {
   position: absolute;
   height: 546px;
   width: 646px;
