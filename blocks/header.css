@@ -5,7 +5,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: url(/images/background_header.svg);
+  background-image: url("../images/background_header.svg");
 }
 
 .header__title {

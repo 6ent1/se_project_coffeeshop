@@ -1,7 +1,7 @@
 .reservation {
   padding: 100px 0 120px;
   background-color: #d9e7ff;
-  background-image: url(/images/background_reservation.svg);
+  background-image: url("../images/background_reservation.svg");
 }
 
 .reservation__title {
@@ -62,7 +62,7 @@
 }
 .form__checkbox:checked {
   background-size: cover;
-  background-image: url(/images/check.svg);
+  background-image: url("../images/check.svg");
 }
 
 .form__input {
