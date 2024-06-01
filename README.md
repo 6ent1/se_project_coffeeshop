@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+A future feature to be implemented on this website will be the addition of another form where users can order takout food, instead of booking a table. This form will have the user choose what they want for pick-up, and the form will show them upfront the cost of their order.
